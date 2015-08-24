@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DRNRACNetworkClient_Example', :exclusive => true do
+  pod "DRNRACNetworkClient", :path => "../"
+end
+
+target 'DRNRACNetworkClient_Tests', :exclusive => true do
+  pod "DRNRACNetworkClient", :path => "../"
+end
